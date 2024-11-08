@@ -1140,9 +1140,6 @@ li a:hover{
 /* Product Responsive */
 
 @media (max-width: 1200px) {
-*{
-  overflow-x:hidden;
-}
   .service-heading {
     margin-left: 4rem;
     font-size: 2.5rem;
@@ -1318,22 +1315,22 @@ li a:hover{
 
     margin-bottom: 0rem;
   }
-
   #view{
     margin-left: -9rem;
   }
 }
+
 @media (max-width: 420px) {
   .service-section .main-box {
     margin-left: -3rem;
   } 
 }
-
 @media (max-width: 400px) {
   .service-section .main-box {
     margin-left: -4rem;
   } 
 }
+
 @media (max-width: 380px) {
   .service-section .main-box {
     margin-left: -5rem;
