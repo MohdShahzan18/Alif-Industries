@@ -713,8 +713,6 @@ li a:hover{
 }
 /* Media Queries */
 
-/* Navbar Responsive */
-
 @media (max-width: 768px) {
   .section-header{
     height: 100px;
@@ -767,9 +765,23 @@ li a:hover{
   }
 }
 
+@media (max-width: 510px){
+  .section-header .navbar{
+    margin-left: 8rem;
+  }
+}
+
 @media (max-width: 480px) {
   .section-header .navbar{
     margin-left: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  .section-header .navbar{
+    margin-left: 6rem;
+  }
+  .section-header .navbar ul li a{
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 420px) {
@@ -779,16 +791,20 @@ li a:hover{
   .section-header .navbar ul {
     gap: 0.8rem;
   }
-  .section-header .navbar ul li a{
-    font-size: 1.2rem;
-  }
+
 }
 @media (max-width: 420px) {
+  .section-header .navbar{
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 380px) {
   .section-header .navbar{
     margin-left: 1rem;
   }
 }
-/* End Navbar Responsive */
+
+/* End Responsive */
 
 /* Home Responsive */
 
