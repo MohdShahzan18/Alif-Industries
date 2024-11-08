@@ -1290,6 +1290,7 @@ li a:hover{
 @media (max-width: 480px) {
   .service-section .main-box {
     margin-left: -3rem;
+    margin-bottom: -4rem;
   }
   .service-section .main-box .box{
     width: 350px;
