@@ -5,7 +5,6 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
-  overflow-x:hidden;
 }
 
 html {
@@ -297,6 +296,7 @@ li a:hover {
   width: 100%;
   height: fit-content;
   padding-bottom: 5rem;
+
 }
 
 .service-heading {
@@ -439,6 +439,7 @@ li a:hover {
 
 .OurService-section {
   width: 100%;
+  height: fit-content;
 }
 .OurService-heading {
   font-size: 2.5rem;
@@ -450,9 +451,10 @@ li a:hover {
 
 .services-card {
   display: grid;
-  height: 550px;
+  height: fit-content;
   width: 100%;
   padding-left: 10rem;
+  margin-bottom: 3rem;
 }
 
 .card {
@@ -674,21 +676,6 @@ li a:hover {
     font-size: 2rem;
     margin-left: 11rem;
   }
-
-  /* .choose-heading {
-    margin-left: 5rem;
-    font-size: 2.2rem;
-    padding-top: 4rem;
-  }
-
-  .main-choose {
-    margin-top: 0rem;
-  }
-
-  .choose-img {
-    width: 600px;
-    margin-left: 1rem;
-  } */
 
   .services-card {
     padding-left: 5rem;
@@ -1505,6 +1492,7 @@ li a:hover {
 }
 
 /* End Choose section */
+
 /* Our Service Responsive */
 
 @media (max-width:1285px) {
@@ -1669,7 +1657,12 @@ margin-left: -1rem;
     margin-left: -0.5rem;
   }   
 }
-@media (max-width: 440px) {
+@media (max-width: 480px) {
+  .services-card{
+    margin-left: -2.5rem;
+  }   
+}
+@media (max-width: 380px) {
   .services-card{
     margin-left: -2.5rem;
   }   
