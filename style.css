@@ -468,6 +468,7 @@ li a:hover {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
+  margin-bottom: 3rem;
 }
 .card-head {
   display: flex;
@@ -534,9 +535,8 @@ li a:hover {
 .footers-section {
   height: 500px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  place-content: center;
   background-color: #133e87;
   height: fit-content;
 }
@@ -555,6 +555,7 @@ li a:hover {
 }
 .product-div {
   margin-bottom: 29rem;
+  margin-top: 3rem;
 }
 .product-div h2 {
   font-size: 3rem;
@@ -570,6 +571,7 @@ li a:hover {
   color: yellow;
 }
 .quick-div {
+  margin-top: 3rem;
   margin-bottom: 21rem;
 }
 .quick-div h2 {
@@ -587,6 +589,7 @@ li a:hover {
 }
 
 .address-div {
+  margin-top: 3rem;
   color: white;
   margin-bottom: 1rem;
 }
@@ -1682,3 +1685,153 @@ margin-left: -1rem;
   }
 }
 /* End Our Service Responsive */
+
+/* Footer Responsive  */
+
+@media (max-width: 1024px) {
+  /* .footers-section {
+    padding: 3rem 0;
+  } */
+
+  .logo-div {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .product-div,
+  .quick-div {
+    text-align: center;
+    width: 80%; /* Limit width on tablet screens */
+  }
+  
+    .product-div h2,
+    .quick-div h2,
+    .address-div h2 {
+      font-size: 2.2rem;
+    }
+   .address-div{
+    margin-right: 2rem;
+   }
+  .product-div ul li a,
+  .quick-div ul li a {
+    font-size: 1.6rem;
+  }
+
+  .phone-detail a {
+    font-size: 1.6rem;
+  }
+
+  .phone-detail i {
+    font-size: 2.5rem;
+  }
+
+  .logo-div p {
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (max-width:960px) {
+  footer{
+    line-height: 3rem;
+  }
+  .grid-four--columns{
+    grid-template-columns: repeat(2 , 1fr);
+  }
+
+  .product-div h2,
+  .quick-div h2, 
+   .address-div h2{
+    font-size: 3rem;
+  }
+  
+  .product-div ul li a,
+  .quick-div ul li a {
+    font-size: 2.5rem;
+  }
+
+  .phone-detail a {
+    font-size: 2.5rem;
+  }
+
+  .address-div{
+    margin-left: 10rem;
+    margin-top: -25rem;
+  }
+  .quick-div{
+    margin-top: -1rem;
+    margin-left: 2rem;
+  }
+  .logo-div{
+    margin-top: -1rem;
+  }
+  .logo-div p {
+    margin-left: 10rem;
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width:668px) {
+  .grid-four--columns{
+    grid-template-columns: repeat(1 , 1fr);
+  }
+  .logo-div p {
+    margin-left: 20rem;
+    font-size: 3rem;
+  }
+
+  .product-div{
+    margin-left: 6rem;
+  }
+  .product-div h2,
+    .quick-div h2,
+    .address-div h2 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+
+    .quick-div{
+      margin-top: -20rem;
+      margin-left: 6rem;
+    }
+    .address-div{
+      margin-top: -8rem;
+      margin-left: 20rem;
+    }
+}
+@media (max-width: 580px) {
+  .phone-detail a {
+    font-size: 2rem;
+  }
+  .logo-div p {
+    margin-left: 12rem;
+  }
+  .address-div {
+    margin-left: 14rem;
+  }
+}
+@media (max-width: 480px) {
+  .address-div{
+    margin-left: 10rem;
+  }
+  .quick-div , .product-div{
+    margin-left: 5rem;
+  }
+  .logo-div p {
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 380px) {
+  .address-div{
+    margin-left: 7rem;
+  }
+  .quick-div , .product-div{
+    margin-left: 3rem;
+  }
+  .logo-div p {
+    margin-left: 7rem;
+  }
+}
+
+/* End Footer Responsive  */
