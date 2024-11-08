@@ -155,30 +155,27 @@ li a:hover{
   width: 600px;
   min-height: 70vh;
   background-repeat: no-repeat;
-  animation: gallary 20s linear infinite; 
-  -webkit-animation: gallary 20s linear infinite;
+  animation: gallary 10s linear infinite;
+  -webkit-animation: gallary 10s linear infinite;
 }
 
-@keyframes gallary { 
+@keyframes gallary {
   0% {
     background-image: url("Img/Rectifier_Main.png");
   }
-  20% {
-    background-image: url("Img/Rectifier_Main.png");
-  }
   40% {
-    background-image: url("Img/Perfume_main-removebg-preview.png");
+    background-image: url("Img/Rectifier_Main.png");
   }
   60% {
     background-image: url("Img/Perfume_main-removebg-preview.png");
   }
   80% {
-    background-image: url("Img/Platting-plant-main.jpg");
+    background-image: url("Img/Perfume_main-removebg-preview.png");
   }
-  100% { 
-    background-image: url("Img/Platting-plant-main.jpg");
-  } 
-} 
+  100% {
+    background-image: url("Img/Rectifier_Main.png");
+  }
+}
 
 .contact-section{
   height: 120px;
