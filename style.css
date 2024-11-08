@@ -1140,6 +1140,9 @@ li a:hover{
 /* Product Responsive */
 
 @media (max-width: 1200px) {
+*{
+  overflow-x:hidden;
+}
   .service-heading {
     margin-left: 4rem;
     font-size: 2.5rem;
